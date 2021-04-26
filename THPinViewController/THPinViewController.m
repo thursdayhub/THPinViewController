@@ -25,7 +25,7 @@
     self = [super init];
     if (self) {
         _delegate = delegate;
-        _backgroundColor = [UIColor whiteColor];
+        _backgroundColor = UIColor.systemBackgroundColor;
         _translucentBackground = NO;
         NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"THPinViewController"
                                                                                     ofType:@"bundle"]];

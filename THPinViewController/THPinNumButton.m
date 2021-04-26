@@ -31,7 +31,7 @@
         _number = number;
         _letters = letters;
         
-        self.layer.cornerRadius = [[self class] diameter] / 2.0f;
+        self.layer.cornerRadius = 8;
         self.layer.borderWidth = 1.0f;
         
         UIView *contentView = [[UIView alloc] init];
